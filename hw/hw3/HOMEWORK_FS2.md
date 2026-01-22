@@ -87,7 +87,7 @@
 ### Бонусы
 
 * **(+5 баллов)** Использование [DVC (Data Version Control)](https://dvc.org/) для управления датасетом и чекпойнтами модели
-* **(до +15 баллов)** Использование других выравниваний, например ([MFA](https://montreal-forced-aligner.readthedocs.io/en/latest/)) или других.
+* **(до +15 баллов)** Использование других выравниваний, например ([MFA](https://montreal-forced-aligner.readthedocs.io/en/latest/)) или прочих на ваш выбор.
 * **(до +20 баллов)** Добавление больше регуляторов в variance adaptor (эмоции, стиль речи и т.д.)
 
 ---
@@ -98,7 +98,7 @@
 
 Для обучения FastSpeech2 необходимо извлечь следующие характеристики из данных:
 
-* **Длительность (Duration)** - из alignment матриц [Tacotron2](TODO) (предобученная модель доступна в репозитории) или с помощью [MFA (Montreal Forced Aligner)](https://montreal-forced-aligner.readthedocs.io/en/latest/) (см. бонусы)
+* **Длительность (Duration)** - из alignment матриц Tacotron 2(TODO) (предобученная модель доступна в репозитории) или с помощью [MFA (Montreal Forced Aligner)](https://montreal-forced-aligner.readthedocs.io/en/latest/) (см. бонусы)
 * **Высота тона (Pitch)** - фундаментальная частота речи
 * **Громкость (Energy)** - энергия mel-спектрограммы
 
@@ -113,7 +113,7 @@
 ### Этап 3: Синтез речи
 
 1. Сгенерируйте mel-спектрограммы для тестовых предложений с помощью обученной FastSpeech2
-2. Преобразуйте mel-спектрограммы в аудио с помощью вокодера [WaveGlow](TODO) (предобученная модель доступна в репозитории)
+2. Преобразуйте mel-спектрограммы в аудио с помощью вокодера WaveGlow (TODO) (предобученная модель доступна в репозитории)
 
 ---
 
@@ -147,4 +147,4 @@
 * [FastSpeech2 (2020)](https://arxiv.org/pdf/2006.04558.pdf)
 * [FastSpeech (2019)](https://arxiv.org/pdf/1905.09263.pdf)
 * [WaveGlow (2018)](https://arxiv.org/pdf/1811.00002.pdf)
-* [Montreal Forced Aligner)](https://montreal-forced-aligner.readthedocs.io/en/latest/)
+* [Montreal Forced Aligner](https://montreal-forced-aligner.readthedocs.io/en/latest/)
