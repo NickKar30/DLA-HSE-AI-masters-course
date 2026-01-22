@@ -6,9 +6,8 @@
 
 В качестве данных для обучения мы будем использовать датасет [RUSLAN](https://ruslan-corpus.github.io) 
 
-## Важные моменты(!)
-
-* **Запрещено** использовать блоки из PyTorch: `nn.Transformer/nn.TransformerEncoder/nn.TransformerEncoderLayer`
+> [!IMPORTANT]
+> * **Запрещено** использовать блоки из PyTorch: `nn.Transformer/nn.TransformerEncoder/nn.TransformerEncoderLayer`
   
 * Внимательно изучите статьи `FastSpeech` и `FastSpeech2`.
 
