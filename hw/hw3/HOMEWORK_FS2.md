@@ -8,8 +8,7 @@
 
 > [!IMPORTANT]
 > * **Запрещено** использовать блоки из PyTorch: `nn.Transformer/nn.TransformerEncoder/nn.TransformerEncoderLayer`
-  
-* Внимательно изучите статьи `FastSpeech` и `FastSpeech2`.
+  * Внимательно изучите статьи `FastSpeech` и `FastSpeech2`.
 
 **Важно:** поскольку ваша работа - это по сути переимплементация статьи, вы **должны** описать все шаги подробно. Например:
 * Как вы извлекаете pitch/energy/duration
