@@ -12,5 +12,5 @@
 | 4 | Audio Understanding & Language Models | [Слайды](lectures/lec4_audio_understanding_lm.pdf) |
 | 5 | VAD & Source Separation | [Слайды](lectures/lec5_vad_separation.pdf) |
 | 6 | Acoustic Models | [Слайды](lectures/lec6_acoustic_models.pdf) |
-| 7 | Vocoders & End-to-End Models | ToDo |
+| 7 | Vocoders & End-to-End Models | [Слайды](lectures/lec7_vocoders_e2e.pdf) |
 | 8 | Neural Audio Codecs | [Слайды](lectures/lec8_codecs.pdf) |
